@@ -7,7 +7,7 @@ function birthdayMessage() {
   if(currentMonth == birthMonth) {
     currentDay();
   } else {
-    return "Please come back in June!";
+    window.alert("Please come back in June!");
   }
   
   function currentDay() {
