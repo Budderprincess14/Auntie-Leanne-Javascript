@@ -7,8 +7,7 @@ function birthdayMessage() {
   if(currentMonth == birthMonth) {
     currentDay();
   } else {
-    var wrongMonth = document.getElementById('incorrectMonth'); 
-    wrongMonth = new String("Please come back in June!");
+    return "Please come back in June!";
   }
   
   function currentDay() {
