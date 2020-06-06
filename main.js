@@ -17,7 +17,7 @@ function birthdayMessage() {
       break;
     } else if (todayDay < birthDay) {
       var remaining = birth - day;
-      return "Come back in " + remaining + " days!"
+      return "Come back in " + remaining + " days!";
       break;
     } else {
       return "Please come back next year!";
@@ -30,5 +30,5 @@ function birthdayMessage() {
 const buttons = document.querySelectorAll('button');
 
 for(let i = 0; i < buttons.length ; i++) {
-  buttons[i].addEventListener('click', birthdayMessage(event));
+  buttons[i].addEventListener('click', birthdayMessage);
 }
