@@ -2,7 +2,7 @@ var birthDay = "9";
 var birthMonth = "June";
 
 function birthdayMessage() {
-  let currentMonth = prompt("Please enter this month as a name.", "April");
+  var currentMonth = prompt("Please enter this month as a name.", "April");
   
   if(currentMonth == birthMonth) {
     currentDay();
@@ -11,7 +11,7 @@ function birthdayMessage() {
   }
   
   function currentDay() {
-    let todayDay = Number(window.prompt("Please enter today's date as a number."));
+    var todayDay = Number(window.prompt("Please enter today's date as a number."));
     if(todayDay == birthDay) {
       return "Please go to " + string.link("https://budderprincess14.github.io/Auntie-Leannes-Birthday-Card/") + " for your gift!";
       break;
