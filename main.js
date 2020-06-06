@@ -1,4 +1,4 @@
-var birthDay = "9";
+var birthDay = 9;
 var birthMonth = "June";
 
 function birthdayMessage() {
